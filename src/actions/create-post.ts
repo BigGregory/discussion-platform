@@ -4,7 +4,7 @@ import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
 import { z } from 'zod';
 
-import { Post } from '@prisma/client';
+import { Post } from '@/generated/prisma/client';
 import { db } from '@/db';
 import { auth } from '@/auth';
 import paths from '@/paths';

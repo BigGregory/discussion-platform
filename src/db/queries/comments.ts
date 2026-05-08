@@ -1,6 +1,6 @@
 import { cache } from 'react';
 
-import { Comment } from '@prisma/client';
+import { Comment } from '@/generated/prisma/client';
 import { db } from '@/db';
 
 export type CommentWithAuthor = Comment & {

@@ -1,4 +1,4 @@
-import { Post } from '@prisma/client';
+import { Post } from '@/generated/prisma/client';
 import { db } from '../index';
 
 export type PostWithData = Post & {
